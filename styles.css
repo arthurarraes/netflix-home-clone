@@ -1,0 +1,130 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    font-family: 'Roboto';
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+
+}
+
+header{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 50px;
+    display: block;
+}
+header .botão{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .botão img{
+    margin-right: 5px;
+}
+header .botão .lingua{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    background: none;
+    color: white;
+    border-width: 0.1px;
+    border-color: white;
+    width: 112px;
+    height: 30px;
+}
+
+header .botão .lingua h2{
+    font-size: 0.9rem;
+    font-weight:400 ;
+}
+header .botão .lingua .imag{
+    color: white;
+    margin-left: 5px;
+}
+
+header .botão .entrar{
+    display: block;
+    margin-right: 50px;
+    background-color: rgb(221, 3, 3);
+    color: white;
+    width: 80px;
+}
+
+.conteudo{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(assets/background.jpg);
+    background-size: 100%;
+    width: 100%;
+}
+
+.conteudo .conteudo-principal{
+    margin-top: 11.5%;
+    padding-bottom: 10.8%;
+}
+
+.conteudo .conteudo-principal h1{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}   
+
+.conteudo .conteudo-principal h2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight:400;
+}
+
+.conteudo .conteudo-principal h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight:400;
+}
+
+.conteudo .conteudo-principal .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo .conteudo-principal .login input{
+    margin-top: 10px;
+    height: 60px;
+    width: 450px;
+    font-size: 16px;
+}
+
+.conteudo .conteudo-principal .login button h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255) ;
+    margin-left: 6px;
+}
+.conteudo .conteudo-principal .login .confirm{
+    margin-top: 10px;
+    height: 64px;
+    width: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 3, 3);
+}
+.conteudo .conteudo-principal .login .confirm img{
+    width: 30px;
+}
+
